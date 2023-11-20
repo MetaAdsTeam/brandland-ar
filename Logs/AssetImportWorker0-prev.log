@@ -1,0 +1,383 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.28f1 (232e59c3f087) revision 2305625'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32612 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projects/brandland_ar_hackatone
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63893
+Successfully changed project path to: D:/Projects/brandland_ar_hackatone
+D:/Projects/brandland_ar_hackatone
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16592] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4182071949 [EditorId] 4182071949 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TTPNJ86) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16592] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4182071949 [EditorId] 4182071949 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TTPNJ86) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 86.32 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.28f1 (232e59c3f087)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/brandland_ar_hackatone/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8137 MB
+    Driver:   26.20.13002.133
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005735 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 180 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 103.69 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Domain Reload Profiling:
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (87ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (262ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003732 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\brandland_ar_hackatone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\brandland_ar_hackatone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 85.49 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1030ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (503ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5887 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (0.7 MB). Loaded Objects now: 6312.
+Memory consumption went from 244.5 MB to 243.8 MB.
+Total: 2.737400 ms (FindLiveObjects: 0.272200 ms CreateObjectMapping: 0.186100 ms MarkObjects: 1.956500 ms  DeleteObjects: 0.321600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 312696.048716 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(e4e6d9a34ef567b49be4abf47fea02c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(e4e6d9a34ef567b49be4abf47fea02c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0859e0c7dc62738337fe3e53e208cd6a') in 0.012582 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 72 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (0.7 MB). Loaded Objects now: 6312.
+Memory consumption went from 118.8 MB to 118.1 MB.
+Total: 2.726500 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.170100 ms MarkObjects: 2.063100 ms  DeleteObjects: 0.224000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.089033 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(493cb314f8c97ac4b816a5e603c5a52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(493cb314f8c97ac4b816a5e603c5a52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739a15eb0ef3ec966988e7dbab12b393') in 0.020360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.268655 seconds.
+  path: Assets/XR/Settings/ARCoreSettings.asset
+  artifactKey: Guid(390197f8699a97745a732feb1e8622c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/ARCoreSettings.asset using Guid(390197f8699a97745a732feb1e8622c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8556663ae6c1133420b2bb2f0d493996') in 0.006279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.890067 seconds.
+  path: Packages/com.unity.xr.arcore/package.json
+  artifactKey: Guid(96d3d50e9dd0d654c90f6f35bb673559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arcore/package.json using Guid(96d3d50e9dd0d654c90f6f35bb673559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f77157b1bea19ac3259082c935dfdc5') in 0.007244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.610039 seconds.
+  path: Packages/com.google.ar.core.arfoundation.extensions/package.json
+  artifactKey: Guid(106e91ded932a4d5dba673b4301e87e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.ar.core.arfoundation.extensions/package.json using Guid(106e91ded932a4d5dba673b4301e87e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b38bb61a2e94485d8606ff198fa45f6') in 0.001646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.008606 seconds.
+  path: Packages/com.google.ar.core.arfoundation.extensions/Editor/GeospatialEditor/Google.XR.ARCoreExtensions.GeospatialCreator.Editor.asmdef
+  artifactKey: Guid(74bea97a78e6240cebd2f55ecaf9ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.ar.core.arfoundation.extensions/Editor/GeospatialEditor/Google.XR.ARCoreExtensions.GeospatialCreator.Editor.asmdef using Guid(74bea97a78e6240cebd2f55ecaf9ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f286a4d21aae5cef435d729aaae366d1') in 0.005879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.766911 seconds.
+  path: Packages/com.unity.xr.arsubsystems/package.json
+  artifactKey: Guid(138de250db28475c974590f762d87650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arsubsystems/package.json using Guid(138de250db28475c974590f762d87650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee2db97da493fd8ef213985e9af1fc4') in 0.001673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.524525 seconds.
+  path: Packages/com.unity.xr.arfoundation/package.json
+  artifactKey: Guid(08e6a1d1bc87fb6408c3e916a260691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/package.json using Guid(08e6a1d1bc87fb6408c3e916a260691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83189c85446cd12887626e371a77d31b') in 0.001581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.713760 seconds.
+  path: Packages/com.unity.xr.arfoundation/Runtime/Unity.XR.ARFoundation.asmdef
+  artifactKey: Guid(a9420e37d7990b54abdef6688edbe313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Runtime/Unity.XR.ARFoundation.asmdef using Guid(a9420e37d7990b54abdef6688edbe313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e0e78be7340bd8739ebdf75db75bcf') in 0.005946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.691630 seconds.
+  path: Packages/com.unity.xr.arfoundation/Materials/DebugFace.mat
+  artifactKey: Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Materials/DebugFace.mat using Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4af3dd5a7641b8471998544f8bf66a') in 0.006514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.694693 seconds.
+  path: Packages/com.unity.xr.arfoundation/Editor/Unity.XR.ARFoundation.Editor.asmdef
+  artifactKey: Guid(7f759c464cb5ea8448d441f13b57aec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Editor/Unity.XR.ARFoundation.Editor.asmdef using Guid(7f759c464cb5ea8448d441f13b57aec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334dcc11c4d0edc3525006b8a88a9fd4') in 0.005178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.117661 seconds.
+  path: Packages/com.cesium.unity/package.json
+  artifactKey: Guid(fc99b226a84821a45a32bf30352df3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/package.json using Guid(fc99b226a84821a45a32bf30352df3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77d78f60a1b8c415a72aa80c5fc96a2') in 0.001612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.378207 seconds.
+  path: Packages/com.cesium.unity/Runtime/CesiumRuntime.asmdef
+  artifactKey: Guid(63cab5ddbd23cf34ca160a9b3d74438d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/CesiumRuntime.asmdef using Guid(63cab5ddbd23cf34ca160a9b3d74438d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec6f8695c42ca5a0fac2527c9f14946') in 0.005867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.213045 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources/CesiumCreditSystem.prefab
+  artifactKey: Guid(06810f89bf31657478c3c2c3443be94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources/CesiumCreditSystem.prefab using Guid(06810f89bf31657478c3c2c3443be94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10074ae83c933420c1013ef02b97e50a') in 0.072345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources/CesiumRasterOverlay.shadersubgraph
+  artifactKey: Guid(32a57007547bea945b18e32888758b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources/CesiumRasterOverlay.shadersubgraph using Guid(32a57007547bea945b18e32888758b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a75595aa705a2b4a88d10934666c4f3') in 0.008563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources/CesiumUnlitTilesetMaterial.mat
+  artifactKey: Guid(d2032d88bf6556a459f397ec48ec5573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources/CesiumUnlitTilesetMaterial.mat using Guid(d2032d88bf6556a459f397ec48ec5573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff471fc10d6a0325bb5c31041ea5d24') in 0.006177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources/CesiumSelectTexCoords.shadersubgraph
+  artifactKey: Guid(45c8c2a0ab2df934c8e0f63147f35d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources/CesiumSelectTexCoords.shadersubgraph using Guid(45c8c2a0ab2df934c8e0f63147f35d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9448c283b34d42f4ef3552ebc882c2c') in 0.007685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources/CesiumPointCloudShading.hlsl
+  artifactKey: Guid(2c388534a2d2de74da9f43b834d68897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources/CesiumPointCloudShading.hlsl using Guid(2c388534a2d2de74da9f43b834d68897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51474d1ff5d22c3603805ba0821113e3') in 0.011339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.721195 seconds.
+  path: Packages/com.unity.xr.arkit/Editor/Unity.XR.ARKit.Editor.asmdef
+  artifactKey: Guid(7910d4af31b741acb1bce1140634a975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arkit/Editor/Unity.XR.ARKit.Editor.asmdef using Guid(7910d4af31b741acb1bce1140634a975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b040e21de71bf3b73a76359c041bfa') in 0.006589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.811175 seconds.
+  path: Assets/Samples/ARCore Extensions
+  artifactKey: Guid(ba78e6d2bab29d5489a2c94a0676709f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ARCore Extensions using Guid(ba78e6d2bab29d5489a2c94a0676709f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4ba3016f60dce5082fd18307075051') in 0.005619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.852795 seconds.
+  path: Assets/Samples/ARCore Extensions/1.37.0
+  artifactKey: Guid(f034ac321566a484391aaf530c438031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ARCore Extensions/1.37.0 using Guid(f034ac321566a484391aaf530c438031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe6ca7989fc9013c43e7225d3e57249') in 0.007689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.824951 seconds.
+  path: Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample
+  artifactKey: Guid(718a0f4ac7f4ad04ba5723409793fc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample using Guid(718a0f4ac7f4ad04ba5723409793fc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fe1f34de193088146af3ee528791d3') in 0.005763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.975215 seconds.
+  path: Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Scenes
+  artifactKey: Guid(c46b434e2e5ca41ae9cd8e708e40a6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Scenes using Guid(c46b434e2e5ca41ae9cd8e708e40a6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c89eecc1ef1a42d33fe3d498aad2a24') in 0.001449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.532770 seconds.
+  path: Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Scenes/Geospatial.unity
+  artifactKey: Guid(1ed15e9657253406185e4b2c7c5a4fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Scenes/Geospatial.unity using Guid(1ed15e9657253406185e4b2c7c5a4fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9779b16cde05f5bea53123cbb707cac') in 0.001668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 566.890816 seconds.
+  path: Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Materials/geospatial_marker.fbx
+  artifactKey: Guid(a097dd1babd4b4eaf864f1a4b1bddfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Materials/geospatial_marker.fbx using Guid(a097dd1babd4b4eaf864f1a4b1bddfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bf42428f4129c348e41a5e7fec6ab8') in 0.024687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Materials/TransparentMat_building_pink.mat
+  artifactKey: Guid(7894c3ef401af4931aa6a101b5fbd724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Materials/TransparentMat_building_pink.mat using Guid(7894c3ef401af4931aa6a101b5fbd724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31eac5dbc964e698ad4020ae2e4bb3e9') in 0.006496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Materials/Icon_Geospatial_1024x1024.png
+  artifactKey: Guid(007bbe997743f4b919e22f853abd8ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Materials/Icon_Geospatial_1024x1024.png using Guid(007bbe997743f4b919e22f853abd8ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef83d39c49ab11d71958da464c7d8d4') in 0.013626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Materials/TransparentMat_building_blue.mat
+  artifactKey: Guid(3a5a66d1f5c534a27a708c3f235eaa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Materials/TransparentMat_building_blue.mat using Guid(3a5a66d1f5c534a27a708c3f235eaa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4942126801263228808eb2975f0b2c') in 0.006408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.936855 seconds.
+  path: Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Prefabs/GeospatialMarker.prefab
+  artifactKey: Guid(f09a13e3d47394ab588884ffd124d732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Prefabs/GeospatialMarker.prefab using Guid(f09a13e3d47394ab588884ffd124d732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6019cfbbc04355e507675cdbc14d0a') in 0.008342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.913628 seconds.
+  path: Assets/Scenes/poland_2.unity
+  artifactKey: Guid(12216637c304c4545bc798ab70d06b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/poland_2.unity using Guid(12216637c304c4545bc798ab70d06b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09dd1ff36e77df85b9c771f8af7edfa8') in 0.001529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.692631 seconds.
+  path: Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Scenes/Geospatial.unity
+  artifactKey: Guid(1ed15e9657253406185e4b2c7c5a4fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Scenes/Geospatial.unity using Guid(1ed15e9657253406185e4b2c7c5a4fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2a0403c12afbdb34c431b4fc0927c2') in 0.001422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 214.738931 seconds.
+  path: Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Scenes/Geospatial.unity
+  artifactKey: Guid(1ed15e9657253406185e4b2c7c5a4fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ARCore Extensions/1.37.0/Geospatial Sample/Scenes/Geospatial.unity using Guid(1ed15e9657253406185e4b2c7c5a4fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13387dc8402225d031951ee88480ee27') in 0.001411 seconds 

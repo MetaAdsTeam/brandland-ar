@@ -4125,7 +4125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _showCreditsOnScreen: 1
   _tilesetSource: 1
-  _url: https://tile.googleapis.com/v1/3dtiles/root?key=AIzaSyDni_HiWBAnSeFQU61wOJ2CTRDGQDurBHk
+  _url: https://tile.googleapis.com/v1/3dtiles/root?key=NEED_KEY
   _ionAssetID: 0
   _ionAccessToken: 
   _maximumScreenSpaceError: 16

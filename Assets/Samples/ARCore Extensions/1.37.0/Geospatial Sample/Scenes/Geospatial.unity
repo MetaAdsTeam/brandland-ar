@@ -813,9 +813,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ECEF:
-    x: 3744880.2073909435
-    y: 2521299.0865855487
-    z: 4490663.721699992
+    x: 5686428.217272821
+    y: 900644.0780830906
+    z: 2736289.9883820913
   EUN:
     x: 2.2987899780273438
     y: 3.000000476837158
@@ -826,13 +826,13 @@ MonoBehaviour:
     z: 4.590000152587891
   shouldPosition: 1
   AltType: 0
-  _latitude: 45.040501484989704
-  _longitude: 33.951026955564515
-  _altitude: 189.00000254660588
+  _latitude: 25.569958568976283
+  _longitude: 9.000022877168233
+  _altitude: 292.8000025489625
   _altitudeOffset: 0
-  _geoRefLatitude: 45.040542785792496
-  _geoRefLongitude: 33.95099778073249
-  _geoRefHeight: 186
+  _geoRefLatitude: 25.57
+  _geoRefLongitude: 9
+  _geoRefHeight: 289.8
 --- !u!1 &384014290
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,7 +2523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _showCreditsOnScreen: 1
   _tilesetSource: 1
-  _url: https://tile.googleapis.com/v1/3dtiles/root?key=AIzaSyDni_HiWBAnSeFQU61wOJ2CTRDGQDurBHk
+  _url: https://tile.googleapis.com/v1/3dtiles/root?key=NEED_KEY
   _ionAssetID: 0
   _ionAccessToken: 
   _maximumScreenSpaceError: 16
@@ -3758,12 +3758,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _originAuthority: 0
-  _latitude: 45.040542785792496
-  _longitude: 33.95099778073249
-  _height: 186
-  _ecefX: 3744877.038608001
-  _ecefY: 2521294.1819111994
-  _ecefZ: 4490664.842201587
+  _latitude: 25.57
+  _longitude: 9
+  _height: 289.8
+  _ecefX: 5686423.947308679
+  _ecefY: 900641.0743425253
+  _ecefZ: 2736292.833990718
   _scale: 1
 --- !u!114 &1532398844
 MonoBehaviour:
@@ -5272,9 +5272,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ECEF:
-    x: 3744854.2438002643
-    y: 2521275.6035680342
-    z: 4490698.324777755
+    x: 5686408.1199691
+    y: 900635.8536292663
+    z: 2736334.1629209756
   EUN:
     x: -2.6804962158203125
     y: 3.000000476837158
@@ -5285,10 +5285,10 @@ MonoBehaviour:
     z: -44.38080596923828
   shouldPosition: 1
   AltType: 0
-  _latitude: 45.04094212404837
-  _longitude: 33.95096376125797
-  _altitude: 189.00015570281852
+  _latitude: 25.57040059738949
+  _longitude: 8.99997332405805
+  _altitude: 292.80015618714185
   _altitudeOffset: 0
-  _geoRefLatitude: 45.040542785792496
-  _geoRefLongitude: 33.95099778073249
-  _geoRefHeight: 186
+  _geoRefLatitude: 25.57
+  _geoRefLongitude: 9
+  _geoRefHeight: 289.8
