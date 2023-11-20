@@ -22,7 +22,8 @@ Simply connect to your computer via Lightninig to USB-C > Build And Run
 In XCode generated project apply these changes:
 Search for BitCode under Build Settings > Set It To No
 Add ARCore package to Unity-iPhone
-Enable ARCore Geospatial component
+Enable ARCore Geospatial component.
+
 💡 For a more detailed manual on Geospatial configuration take a look at [Google's ARCore documentation](https://developers.google.com/ar/geospatialcreator/intro)
 
 ## MetaAds configuration
